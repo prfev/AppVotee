@@ -8,7 +8,7 @@
     tools:context=".TelaEscolhaVoto">
 
     <Button
-        android:id="@+id/btPrefeito2"
+        android:id="@+id/btnSenador"
         android:layout_width="150dp"
         android:layout_height="58dp"
         android:background="@drawable/radius"
@@ -22,7 +22,7 @@
         app:layout_constraintVertical_bias="0.567" />
 
     <Button
-        android:id="@+id/btPrefeito"
+        android:id="@+id/btnPresidente"
         android:layout_width="150dp"
         android:layout_height="58dp"
         android:background="@drawable/radius"
@@ -47,5 +47,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btPrefeito2" />
+        app:layout_constraintTop_toBottomOf="@+id/btnPresidente" />
 </androidx.constraintlayout.widget.ConstraintLayout>

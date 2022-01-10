@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppVotee">
         <activity
+            android:name=".Finaliza"
+            android:exported="false" />
+        <activity
+            android:name=".TelaDigitaVoto"
+            android:exported="false" />
+        <activity
             android:name=".TelaEscolhaVoto"
             android:exported="true" />
         <activity

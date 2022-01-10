@@ -16,13 +16,13 @@ public class MainActivityTituloEleitor extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_titulo_eleitor);
 
-        botaoProximo=findViewById(R.id.botaoProximo);
+        botaoProximo=findViewById(R.id.botaoConfirmaTitulo);
 
         botaoProximo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent TelaEscolhaVoto=new Intent(getApplicationContext(), TelaEscolhaVoto.class);
-                startActivity(TelaEscolhaVoto);
+                Intent telaEscolhaVoto=new Intent(getApplicationContext(), TelaEscolhaVoto.class);
+                startActivity(telaEscolhaVoto);
             }
         });
 
