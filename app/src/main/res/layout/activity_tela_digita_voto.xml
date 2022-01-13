@@ -22,6 +22,7 @@
         app:layout_constraintVertical_bias="0.765" />
 
     <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/inputVoto"
         android:layout_width="361dp"
         android:layout_height="50dp"
         android:layout_marginStart="72dp"

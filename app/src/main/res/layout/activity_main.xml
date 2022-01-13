@@ -35,17 +35,16 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="230dp"
-        android:layout_height="34dp"
+        android:layout_width="259dp"
+        android:layout_height="60dp"
         android:text="Ao “Iniciar” você declara que concorda com nossos Termos de Uso."
+        android:textAlignment="center"
         android:textColor="#FFFFFF"
         android:textSize="14sp"
-        android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/botaoIniciar"
-        app:layout_constraintVertical_bias="0.657" />
+        app:layout_constraintVertical_bias="0.734" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

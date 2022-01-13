@@ -6,9 +6,14 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
+import android.widget.Toast;
+
+import java.io.IOException;
 
 public class MainActivity extends AppCompatActivity {
     Button botaoIniciar;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,17 +22,12 @@ public class MainActivity extends AppCompatActivity {
 
         botaoIniciar = findViewById(R.id.botaoIniciar);
 
-        botaoIniciar.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent MainActivityTituloEleitor = new Intent(getApplicationContext(),MainActivityTituloEleitor.class);
-                startActivity(MainActivityTituloEleitor);
-            }
+        botaoIniciar.setOnClickListener(
+                v -> {
+                    Intent MainActivityTituloEleitor = new Intent(getApplicationContext(), MainActivityTituloEleitor.class);
+                    startActivity(MainActivityTituloEleitor);
+                    //new Thread(new ClientThread()).start();
+
         });
-
-
     }
-
-
-
 }
